@@ -1,6 +1,6 @@
-import {motion} from 'framer-motion'; // ❌ Era 'motion/react', correto é 'framer-motion'
+import {motion} from 'framer-motion';
 
-interface StatsSectionProps { // ❌ Era "Prop", correto é "Props" (plural)
+interface StatsSectionProps {
     activeClientsValue: string;
     activeClients: string;
     satisfactionValue: string;
