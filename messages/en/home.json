@@ -1,0 +1,16 @@
+{
+    "HomePage": {
+        "title": "Health Insurance",
+        "description": "Take care of your health with peace of mind.",
+        "badgeText":"Your health comes first",
+        "stats": {
+            "activeClients": "Active clients",
+            "satisfaction": "Satisfaction",
+            "support": "Support"
+        },
+        "CTA": {
+            "startNow": "Get started",
+            "seeMore": "Learn more"
+        }
+    }
+}

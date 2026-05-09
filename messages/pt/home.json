@@ -1,0 +1,16 @@
+{
+    "HomePage": {
+      "title": "Seguro Saúde",
+      "description": "Cuide da sua saúde com tranquilidade.",
+      "badgeText": "Sua saúde em primeiro lugar",
+      "stats": {
+        "activeClients": "Clientes ativos",
+        "satisfaction": "Satisfação",
+        "support": "Atendimento"
+      },
+      "CTA": {
+        "startNow": "Get started",
+        "seeMore": "Learn more"
+      }
+    }
+  }
