@@ -1,8 +1,10 @@
 {
     "HomePage": {
         "title": "Health Insurance",
+        "subtitle": "Smart protection",
         "description": "Take care of your health with peace of mind.",
         "badgeText":"Your health comes first",
+        "plans":"Plans",
         "stats": {
             "activeClients": "Active clients",
             "satisfaction": "Satisfaction",

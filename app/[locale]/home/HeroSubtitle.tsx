@@ -1,8 +1,5 @@
 import {motion} from 'motion/react';
-
-interface HeroSubtitleProps {
-    description:string;
-}
+import {HeroSubtitleProps} from "@/types/HomeTypes"
 
 export default function HeroSubtitle ({description}:HeroSubtitleProps) {
     return (

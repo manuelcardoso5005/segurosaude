@@ -1,5 +1,5 @@
 import {motion} from 'motion/react';
-import BadgeAnimationProps from "@/types/HomeContent"
+import {BadgeAnimationProps} from "@/types/HomeTypes"
 
 export default function BadgeAnimation({badgeText}:BadgeAnimationProps) {
     return (

@@ -1,12 +1,12 @@
 'use client';
 
 import {motion} from 'framer-motion';
-import {MoveRight} from 'lucide-react';
+import {MoveRight, Info} from 'lucide-react';
 import {Link} from '@/i18n/navigation';
 import {
   HeroButtonsProps,
   HeroButtonProps
-} from '@/types/HomeContent';
+} from '@/types/HomeTypes';
 
 export default function HeroButtons({getStart, seeMore}:HeroButtonsProps) {
   return (
@@ -20,7 +20,7 @@ export default function HeroButtons({getStart, seeMore}:HeroButtonsProps) {
       {/* Botão 1 - Link FORA do button */}
       <HeroButton
         href="/planos"
-        variant={true}
+        variant="primary"
       >
           <motion.span
             className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600"
@@ -40,12 +40,10 @@ export default function HeroButtons({getStart, seeMore}:HeroButtonsProps) {
       </HeroButton>
 
       {/* Botão 2 - Link FORA do button */}
-      <Link href="/sobre"> 
-        <motion.button
-          className="group w-full rounded-full border-2 border-white/20 bg-white/5 px-10 py-4 font-semibold text-white backdrop-blur-md transition-all hover:border-white/40 hover:bg-white/10 cursor-pointer"
-          whileHover={{scale: 1.05}}
-          whileTap={{scale: 0.95}}
-        >
+      <HeroButton
+        href="/planos"
+        variant="secondary"
+      >
           <span className="flex items-center justify-center gap-2">
             {seeMore}
             <motion.span
@@ -53,11 +51,10 @@ export default function HeroButtons({getStart, seeMore}:HeroButtonsProps) {
               animate={{x: [0, 3, 0]}}
               transition={{duration: 1.5, repeat: Infinity}}
             >
-              <MoveRight className="h-5 w-5" />
+              <Info className="h-5 w-5" />
             </motion.span>
           </span>
-        </motion.button>
-      </Link>
+      </HeroButton>
     </motion.div>
   );
 }
@@ -68,7 +65,7 @@ export function HeroButton ({href, variant, children}:HeroButtonProps) {
     <Link href={href}>
         <motion.button
           className={`ggroup relative flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full px-10 py-4 font-semibold transition-all ${
-            isPrimary
+            isPrimary == "primary"
               ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-2xl shadow-blue-500/50'
               : 'border-2 border-white/20 bg-white/5 text-white backdrop-blur-md hover:border-white/40 hover:bg-white/10' 
           }`}

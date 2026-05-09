@@ -33,7 +33,7 @@ export default function () {
 
                 {/* CTAs com hover effects */}
                 <HeroButtons
-                    getStart={t('CTA.startNow')}
+                    getStart={t('plans')}
                     seeMore={t('CTA.seeMore')}
                 />
 

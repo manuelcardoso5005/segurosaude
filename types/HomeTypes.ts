@@ -1,6 +1,6 @@
 import {ReactNode} from 'react';
 
-export default interface BadgeAnimationProps {
+export interface BadgeAnimationProps {
   badgeText: string;
 }
 
@@ -11,6 +11,10 @@ export interface HeroButtonsProps {
 
 export interface HeroButtonProps {
   href: string;
-  variant?: boolean;
+  variant?: 'primary' | 'secondary';
   children: ReactNode;
+}
+
+export interface HeroSubtitleProps {
+  description: string;
 }

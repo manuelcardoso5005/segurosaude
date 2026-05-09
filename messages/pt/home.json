@@ -1,8 +1,10 @@
 {
     "HomePage": {
-      "title": "Seguro Saúde",
+      "title": "Seguro de Saúde",
+      "subtitle":"Proteção inteligente",
       "description": "Cuide da sua saúde com tranquilidade.",
       "badgeText": "Sua saúde em primeiro lugar",
+      "plans":"Planos",
       "stats": {
         "activeClients": "Clientes ativos",
         "satisfaction": "Satisfação",

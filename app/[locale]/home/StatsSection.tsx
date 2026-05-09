@@ -19,7 +19,7 @@ export default function StatsSection({
 }: StatsSectionProps) {
     return (
         <motion.div
-            className="mt-20 grid grid-cols-3 gap-8 sm:gap-16"
+            className="mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 sm:gap-8 lg:gap-16"
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 0.8, delay: 0.8}}
@@ -37,7 +37,7 @@ export default function StatsSection({
               >
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-md transition-all group-hover:border-white/20 group-hover:bg-white/10">
                   <motion.div
-                    className="text-4xl font-bold text-white sm:text-5xl"
+                    className="text-2xl font-bold text-white sm:text-4xl md:text-5xl"
                     initial={{opacity: 0, scale: 0.5}}
                     animate={{opacity: 1, scale: 1}}
                     transition={{duration: 0.5, delay: 1 + i * 0.1}}

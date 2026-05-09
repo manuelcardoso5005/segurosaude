@@ -3,6 +3,7 @@ import {getMessages, setRequestLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '../../i18n/routing';
 import './globals.css';
+import Header from '@/components/layout/Header/Header';
 import {BackgroundParallax} from '@/components/layout/BackgroundParallax';
 
 export function generateStaticParams() {
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
           <BackgroundParallax> 
             {children}
           </BackgroundParallax>
