@@ -2,12 +2,12 @@ import {motion} from 'framer-motion';
 import {Link} from '@/i18n/navigation';
 import {ShieldPlus} from 'lucide-react';
 
-interface LogoHeaderProps {
+interface LogoContentProps {
     title:string;
     subtitle:string;
 }
 
-export default function LogoHeader ({title, subtitle}:LogoHeaderProps) {
+export default function LogoContent ({title, subtitle}:LogoContentProps) {
     return (
         <Link href="/" className="group flex items-center gap-3">
             <motion.div

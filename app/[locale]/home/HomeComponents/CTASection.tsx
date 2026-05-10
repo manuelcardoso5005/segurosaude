@@ -13,7 +13,7 @@ export default function CTASection() {
   return (
     <section
       ref={ref}
-      className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-600 py-24 sm:py-32"
+      className="relative via-purple-600 to-indigo-600 py-24 sm:py-32"
     >
       {/* Background animado */}
       <motion.div

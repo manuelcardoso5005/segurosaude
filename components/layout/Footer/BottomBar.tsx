@@ -1,9 +1,9 @@
 
 import {motion} from 'framer-motion';
-import {isInView} from "@/types/FooterTypes"
+import {InView} from "@/types/FooterTypes"
 import { Link } from '@/i18n/navigation';
 
-export default function BottomBar ({isInView}:isInView) {
+export default function BottomBar ({isInView}:InView) {
     return (
         <motion.div
         initial={{opacity: 0}}

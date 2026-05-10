@@ -1,3 +1,46 @@
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaYoutube,
+} from 'react-icons/fa';
+import {SocialLink} from "@/types/FooterTypes"
+
+
+export const socialLinks: SocialLink[] = [
+  {
+    icon: FaFacebook,
+    href: 'https://facebook.com',
+    label: 'Facebook',
+    color: 'hover:text-blue-500',
+  },
+  {
+    icon: FaInstagram,
+    href: 'https://instagram.com',
+    label: 'Instagram',
+    color: 'hover:text-pink-500',
+  },
+  {
+    icon: FaTwitter,
+    href: 'https://twitter.com',
+    label: 'Twitter',
+    color: 'hover:text-sky-500',
+  },
+  {
+    icon: FaLinkedin,
+    href: 'https://linkedin.com',
+    label: 'LinkedIn',
+    color: 'hover:text-blue-600',
+  },
+  {
+    icon: FaYoutube,
+    href: 'https://youtube.com',
+    label: 'YouTube',
+    color: 'hover:text-red-500',
+  },
+];
+
 export const footerLinks = {
     company: [
       {label: 'Sobre nós', href: '/sobre'},
@@ -28,3 +71,4 @@ export const footerLinks = {
       {label: 'Ouvidoria', href: '/ouvidoria'},
     ],
   };
+

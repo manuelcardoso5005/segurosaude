@@ -1,8 +1,8 @@
 
 import {motion} from 'framer-motion';
-import {isInView} from "@/types/FooterTypes"
+import {InView} from "@/types/FooterTypes"
 
-export default function Certifications ({isInView}:isInView) {
+export default function Certifications ({isInView}:InView) {
     return (
         <motion.div
         initial={{opacity: 0}}

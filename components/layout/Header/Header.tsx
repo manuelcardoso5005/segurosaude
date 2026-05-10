@@ -5,7 +5,7 @@ import {useState} from 'react';
 import {useTranslations, useLocale} from 'next-intl';
 
 import {navItems} from './listNavMenu';
-import LogoHeader from './LogoHeader';
+import LogoContent from '@/components/shared/LogoContent';
 import DesktopNav from './DesktopNav';
 import MobileButton from './MobileButton';
 import MobileMenu from './MobileMenu';
@@ -25,7 +25,7 @@ export default function Header() {
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         {/* Logo com animação */}
-        <LogoHeader title={t('title')} subtitle={t('subtitle')} />
+        <LogoContent title={t('title')} subtitle={t('subtitle')} />
 
         {/* Desktop nav com animações */}
         <DesktopNav navItems={navItems} />
