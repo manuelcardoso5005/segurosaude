@@ -7,7 +7,6 @@ import {useTranslations, useLocale} from 'next-intl';
 import {navItems} from './listNavMenu';
 import LogoHeader from './LogoHeader';
 import DesktopNav from './DesktopNav';
-import DesktopCTA from './DesktopCTA';
 import MobileButton from './MobileButton';
 import MobileMenu from './MobileMenu';
 import LanguageSwitcher from './LanguageSwitcher';

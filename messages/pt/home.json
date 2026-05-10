@@ -4,7 +4,10 @@
       "subtitle":"Proteção inteligente",
       "description": "Cuide da sua saúde com tranquilidade.",
       "badgeText": "Sua saúde em primeiro lugar",
+      "home":"Início",
       "plans":"Planos",
+      "about":"Sobre",
+      "contact":"Contacto",
       "stats": {
         "activeClients": "Clientes ativos",
         "satisfaction": "Satisfação",

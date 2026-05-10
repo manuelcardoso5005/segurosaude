@@ -4,7 +4,10 @@
         "subtitle": "Smart protection",
         "description": "Take care of your health with peace of mind.",
         "badgeText":"Your health comes first",
+        "home":"Home",
         "plans":"Plans",
+        "about":"About",
+        "contact":"Contact",
         "stats": {
             "activeClients": "Active clients",
             "satisfaction": "Satisfaction",
