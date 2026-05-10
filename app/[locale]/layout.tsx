@@ -5,6 +5,7 @@ import {routing} from '../../i18n/routing';
 import './globals.css';
 import Header from '@/components/layout/Header/Header';
 import {BackgroundParallax} from '@/components/layout/BackgroundParallax';
+import Footer from '@/components/layout/Footer/Footer';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
@@ -34,6 +35,7 @@ export default async function LocaleLayout({
           <BackgroundParallax> 
             {children}
           </BackgroundParallax>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
