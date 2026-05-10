@@ -8,8 +8,6 @@ import HeroButtons from './HeroSection/HeroButtons';
 import StatsSection from './HeroSection/StatsSection';
 import ScrollIndicator from './HeroSection/ScrollIndicator';
 import {BackgroundParallax} from '@/components/layout/BackgroundParallax';
-
-// Novas seções
 import FeaturesSection from './HomeComponents/FeaturesSection';
 import BenefitsSection from './HomeComponents/BenefitsSection';
 import HowItWorksSection from './HomeComponents/HowItWorksSection';
