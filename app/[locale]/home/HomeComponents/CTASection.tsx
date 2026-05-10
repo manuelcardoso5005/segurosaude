@@ -110,7 +110,7 @@ export default function CTASection() {
           className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-white/70"
         >
           <div className="flex items-center gap-2">
-            ✓ Sem fidelidade
+            ✓ Fdelidade
           </div>
           <div className="flex items-center gap-2">
             ✓ Cancelamento gratuito

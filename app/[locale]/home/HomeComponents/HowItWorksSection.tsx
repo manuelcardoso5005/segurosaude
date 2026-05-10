@@ -3,41 +3,14 @@
 import {motion} from 'framer-motion';
 import {useInView} from 'framer-motion';
 import {useRef} from 'react';
-import {UserPlus, FileCheck, Heart, Sparkles} from 'lucide-react';
-
-const steps = [
-  {
-    icon: UserPlus,
-    title: 'Escolha seu plano',
-    description: 'Selecione o plano ideal para você e sua família em minutos',
-    step: '01',
-  },
-  {
-    icon: FileCheck,
-    title: 'Faça seu cadastro',
-    description: 'Preencha seus dados de forma rápida e segura online',
-    step: '02',
-  },
-  {
-    icon: Heart,
-    title: 'Ative sua cobertura',
-    description: 'Receba seu cartão digital e comece a usar imediatamente',
-    step: '03',
-  },
-  {
-    icon: Sparkles,
-    title: 'Cuide da sua saúde',
-    description: 'Acesse toda nossa rede credenciada e benefícios exclusivos',
-    step: '04',
-  },
-];
+import {steps} from "@/data/steps"
 
 export default function HowItWorksSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true});
 
   return (
-    <section ref={ref} className="bg-gray-50 py-24 sm:py-32">
+    <section ref={ref} className="relative bg-gray-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{opacity: 0, y: 20}}

@@ -1,0 +1,46 @@
+export const plans = [
+    {
+      name: 'Essencial',
+      price: '299',
+      description: 'Ideal para quem busca proteção básica',
+      popular: false,
+      features: [
+        'Consultas ilimitadas',
+        'Emergências 24/7',
+        'Exames laboratoriais',
+        'Telemedicina incluída',
+        'Rede nacional',
+      ],
+      color: 'from-blue-500 to-cyan-500',
+    },
+    {
+      name: 'Premium',
+      price: '599',
+      description: 'O mais escolhido pelas famílias',
+      popular: true,
+      features: [
+        'Tudo do Essencial',
+        'Internamentos',
+        'Cirurgias',
+        'Maternidade',
+        'Rede internacional',
+        'Check-up anual grátis',
+      ],
+      color: 'from-purple-500 to-pink-500',
+    },
+    {
+      name: 'Elite',
+      price: '999',
+      description: 'Cobertura completa e sem limites',
+      popular: false,
+      features: [
+        'Tudo do Premium',
+        'Quarto individual',
+        'Medicina preventiva',
+        'Concierge médico',
+        'Segunda opinião internacional',
+        'Reembolso prioritário',
+      ],
+      color: 'from-amber-500 to-orange-500',
+    },
+  ];
